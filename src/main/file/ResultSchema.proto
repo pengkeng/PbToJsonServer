@@ -1,0 +1,10 @@
+
+package  com.example.ucas;
+option java_outer_classname = "ResultMessage";
+
+
+message  Result{
+    required int32 code = 1;
+    required string message = 2;
+    optional string data = 3;
+}
